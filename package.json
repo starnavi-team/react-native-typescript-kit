@@ -1,0 +1,42 @@
+{
+  "name": "reactNativeTypescriptKit",
+  "version": "0.0.1",
+  "author": "Taranenko",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android",
+    "test": "jest",
+    "lint": "tslint -c tslint.json './src/**/*'"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-redux": "6.0.0",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "@types/jest": "23.3.13",
+    "@types/react": "^16.8.8",
+    "@types/react-native": "^0.57.41",
+    "@types/react-redux": "^7.0.5",
+    "@types/redux": "3.6.0",
+    "@types/redux-thunk": "2.1.0",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3",
+    "remote-redux-devtools": "^0.5.16",
+    "tslint": "5.12.1",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-loader": "3.5.4",
+    "tslint-react": "3.6.0",
+    "typescript": "3.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
